@@ -15,7 +15,7 @@ public class Main {
 
         Children c1 = new Children("Shubham", 12, 18, hobbies);
 
-        System.out.println(c1.getFullName()+" of age "+c1.age+" studies in grade "+c1.grade+" and his hobbies are:");
+        System.out.println(c1.getFullName()+" of age "+c1.age+"lives in "+c1.houseAddress+"and studies in grade "+c1.grade+" and his hobbies are:");
         System.out.println(c1.getHobbies());
 
 

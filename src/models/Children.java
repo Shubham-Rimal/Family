@@ -9,7 +9,7 @@ public class Children extends Parent{
 
     public ArrayList<String> getHobbies() {
         for (String singleHobbies : hobbies){
-            System.out.println(singleHobbies);
+            System.out.println("My Hobby: "+singleHobbies);
         }
         return hobbies;
     }
